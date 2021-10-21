@@ -1,3 +1,38 @@
+# NumberConverter
+library currently have one method ```NumberConverter.int2str()``` which takes integer (N) as an argument, return a string representation of that integer.
+
+## Getting Started
+##### Installation #####
+1. Clone this Repository.
+2. Run ```mvn install``` to install it into local Maven repository.
+
+##### Usage #####
+Add this dependency
+```xml
+<dependency>
+    <groupId>com.srj</groupId>
+    <artifactId>num-converter</artifactId>
+    <version>1.0</version>
+</dependency>
+```
+
+Example:
+```java
+import com.srj.converter.NumberConverter;
+public class test {
+    public static void main(String[] args) {
+        System.out.println(NumberConverter.int2str(233434222));
+    }
+}
+```
+Output:
+```text
+Two Hundred Thirty-Three Million Four Hundred Thirty-Four Thousand Two Hundred Twenty-Two
+```
+
+
+<!---
+
 Number to String
 ================
 
@@ -23,3 +58,5 @@ As far as the workflow for submission:
 
 1. Create a branch, using a branch name you feel is appropriate.
 2. Once you're satisfied with your solution, create a pull request against _master_
+
+--->
